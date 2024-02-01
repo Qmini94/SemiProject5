@@ -12,11 +12,11 @@
  - **개발기간** : 2021.9.29 - 2021.10.15 <br>
  - **개발인원** : 5명<br>
  - **역할분담**<br>
-   - **박예진(본인)** : 조장, 회원가입/로그인, 참가신청, 마이페이지, AWS
+   - 박예진 : 조장, 회원가입/로그인, 참가신청, 마이페이지, AWS
    - 김민지 : 공지사항, QnA, 관리자, git
    - 윤인정 : 회원관리, 마이페이지
    - 한희규 : 메인/소개/일정, 위치/코스/기념품, 유의사항, 대회관리
-   - 박규민 : 커뮤니티, 후기
+   - 박규민(본인) : 커뮤니티, 후기
  - **협업tool**
  
 	<details>
@@ -40,31 +40,6 @@
 
 ## 📚 ERD   
 ![ERD](https://user-images.githubusercontent.com/80744051/175222667-a779da53-6213-4b59-961b-8d72f8d03f08.PNG)
-
-## :star2: 기여부분
-:point_right:[전체 PPT](https://drive.google.com/file/d/1o9VqOp-oanydnokMEkRB5zQ-EGHtbwqd/view)
-:point_right:[영상ver PPT](https://docs.google.com/presentation/d/1B89wq9jjWCuInfGlFyc1sqVZEbJv4Ii_/edit?usp=sharing&ouid=108125837232154027289&rtpof=true&sd=true)<br>
-<details>
- <summary><b>로그인</b></summary>
-    <img src="https://user-images.githubusercontent.com/80744051/175223797-5693ec59-a67b-4427-a78b-4a6eb3ce220f.jpg">
-    <img src="https://user-images.githubusercontent.com/80744051/175223807-15081967-c798-4661-a5dc-c21f6d7b81d9.jpg">
-</details>
-<details>
-  <summary><b>회원가입</b></summary>
-    <img src="https://user-images.githubusercontent.com/80744051/175223822-892903fa-e51f-4a3f-b251-9cfeffe826b6.jpg">  
-    <img src="https://user-images.githubusercontent.com/80744051/175223936-b6aefa6b-edbb-4620-a53e-5ac0094d032a.jpg">     
-    <img src="https://user-images.githubusercontent.com/80744051/175223954-d68c9237-305d-445a-a4a1-0867ab5af532.jpg">
-</details>
-<details>
-  <summary><b>참가신청</b></summary>
-    <img src="https://user-images.githubusercontent.com/80744051/175223988-4f2085f1-adbb-43b7-96bd-74b2df5b2379.jpg">  
-    <img src="https://user-images.githubusercontent.com/80744051/175223999-485cab0f-746c-4313-9e55-eaf94cb67ea9.jpg">     
-    <img src="https://user-images.githubusercontent.com/80744051/175230198-faf46d85-a71c-4cff-9fc8-0d071664e858.png">
-</details>
-<details>
-  <summary><b>마이페이지</b></summary>
-    <img src="https://user-images.githubusercontent.com/80744051/175224062-2cddb171-42de-4981-9528-27cbf74d7c98.jpg">  
-</details>
 
 ## :triangular_ruler: 주요 로직
 <details>
@@ -257,12 +232,6 @@ function check() {
 					
 - **AWS** 에 도전
     - 사이트배포 및 RDS사용을 위해 AWS에 도전하였다. AWS개념을 익히기 위해 여러 유튜브 강의도 듣고, 사용법을 찾기 위해 구글링도 꼬박 3일은 한 것 같다. 구글링하는 곳마다 정보도 제각각이고, 친절하게 처음부터 끝까지 알려주는 곳이 없어 애를 많이 먹었다. 그래도 여러 군데의 구글링을 통합한 결과, 팀원들에게 RDS 설정도 직접 다 해줄 수 있을 정도로 AWS를 익힐 수 있었다. 이 경험으로 구글링만으로도 새로운 기술을 스스로 익일 수 있다는 것을 깨닫게 되었다.
-
-- 조장으로서 **솔선수범**
-    - 조장으로서 그리고 힘들어도 다 살이되고 피가된다는 마인드로 매번 '제가 할게요'를 외쳤다.
-    - 기획회의 시간 전에 미리 스토리보드를 작성해와서 기획 회의 시간을 2시간으로 단축시켰다.	
-    - 다들 엄두를 못내는 AWS공부에 솔선수범하여, 몇날며칠을 구글링하고 강의를 찾아본 끝에 결국 RDS를 활용할 수 있게 되었다.
-    - 발표 당일, 급하게 사이트 시연이 필요하게 되었다. 이번에도 조장으로서 '제가 할게요'를 외쳤다. 20분 남짓한 시간동안 효율적인 동선으로 사이트 시연을 할 수 있는 방법을 연구하여 프로젝트의 기능을 세세하게 다 보여줄 수 있는 시연발표를 진행할 수 있었다.
 					
 - 하나부터 열까지 **기획**
     - 미리 수십개의 마라톤 사이트를 찾아보며, 필요한 기능, UI/UX 등을 참고하였다.
